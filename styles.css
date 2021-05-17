@@ -29,6 +29,7 @@ section:after{
   height: 100%;
   background: #0A2A43;
   z-index: 10000;
+  mix-blend-mode: color;
 }
 
 section {
@@ -49,4 +50,15 @@ section img {
   height: 100%;
   object-fit: cover;
   pointer-events: none;
+}
+
+#text {
+  position: relative;
+  color: #fff;
+  font-size: 10em;
+  z-index: 1;
+}
+
+#road {
+  z-index: 2;
 }
