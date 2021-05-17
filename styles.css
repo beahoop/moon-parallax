@@ -62,3 +62,12 @@ section img {
 #road {
   z-index: 2;
 }
+
+
+@media (max-width: 1000px) {
+
+  #text{
+    font-size: 5em;
+  }
+
+}
